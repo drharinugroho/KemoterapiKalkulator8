@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="8sp"
+        android:text="Perhitungan Dosis Kemoterapi \nGinekologi Onkologi"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/pacliCarbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul"
+        android:layout_centerHorizontal="true"
+        android:onClick="klikPacliCarbo"
+        android:text="Paclitaxel Carboplatin"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/cisplatin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pacliCarbo"
+        android:layout_centerHorizontal="true"
+        android:onClick="klikCisplatin"
+        android:text="cisplatin" />
+
+    <Button
+        android:id="@+id/gemciCarbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cisplatin"
+        android:layout_centerHorizontal="true"
+        android:onClick="klikGemciCarbo"
+        android:text="gemcitabin carboplatin" />
+
+    <Button
+        android:id="@+id/doceCarbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gemciCarbo"
+        android:layout_centerHorizontal="true"
+        android:onClick="klikDoceCarbo"
+        android:text="docetaxel carboplatin" />
+
+    <Button
+        android:id="@+id/mTX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doceCarbo"
+        android:layout_centerHorizontal="true"
+        android:onClick="klikMTX"
+        android:text="methotrexate" />
+
+    <Button
+        android:id="@+id/emaco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mTX"
+        android:layout_centerHorizontal="true"
+        android:onClick="klikEmaco"
+        android:text="EMACO" />
+
+    <Button
+        android:id="@+id/emaep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emaco"
+        android:layout_centerHorizontal="true"
+        android:onClick="klikEmaEP"
+        android:text="EMA-EP" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:text="versi Beta 0.7 - \nHari Nugroho - Birama Robby - 2021"
+        android:textSize="10sp" />
+
+</RelativeLayout>
