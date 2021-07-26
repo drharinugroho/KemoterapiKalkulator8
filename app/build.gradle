@@ -10,8 +10,8 @@ android {
         applicationId 'com.kemoterapi.android.kalkulatorkemoterapi'
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 3
-        versionName "0.7"
+        versionCode 4
+        versionName '0.8'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

@@ -89,7 +89,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:textAlignment="center"
-        android:text="versi Beta 0.7 - \nHari Nugroho - Birama Robby - 2021"
+        android:text="versi Beta 0.8 - \nHari Nugroho - Birama Robby - 2021"
         android:textSize="10sp" />
 
 </RelativeLayout>

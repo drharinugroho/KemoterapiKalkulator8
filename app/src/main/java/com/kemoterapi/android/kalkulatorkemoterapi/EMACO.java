@@ -104,11 +104,11 @@ public class EMACO extends AppCompatActivity {
         kadarCyclophosphamide.setText((int) dosisCyclophophamide + " mg");
 
         //menghitung dosis Vincristine = 1 x LPT
-        double dosisVincristine = LPT;
+        double dosisVincristine = luasPermukaanTubuhBulatFinal;
 
         //menampilkan kadar Vincristine
         TextView kadarVincristine = (TextView) findViewById(R.id.vincristin);
-        kadarVincristine.setText((int) dosisVincristine + " mg");
+        kadarVincristine.setText((double) dosisVincristine + " mg");
 
 
     }

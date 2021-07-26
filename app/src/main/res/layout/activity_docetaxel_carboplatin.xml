@@ -37,14 +37,12 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:inputType="number"
-            android:text="0"
             android:padding="8sp" />
 
         <TextView
             android:layout_width="65sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-
             android:text="Berat Badan (kg)" />
 
         <EditText
@@ -53,7 +51,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:inputType="number"
-            android:text="0"
             android:padding="8sp" />
 
     </LinearLayout>
@@ -76,7 +73,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:inputType="number"
-            android:text="0"
             android:padding="8sp" />
 
         <TextView
@@ -91,7 +87,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="0"
             android:inputType="numberDecimal" />
 
     </LinearLayout>
